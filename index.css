@@ -1,0 +1,124 @@
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.global-section{
+    padding: 3rem;
+}
+
+.global-heading{
+    font-size: 55px;
+    text-align: center;
+}
+
+.global-head-p{
+    font-size: 20px;
+}
+/* Frist section */
+.first-section{
+    background-image: url(./image/main\ image\ 3.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 13rem 0;
+    text-align: center;  
+   
+}
+
+.first-section button{
+    width: 200px;
+    height: 50px;
+    background-color:black;
+    color: white;
+    margin: 20px;}
+
+.first-section h2{
+
+    font-size: 40px;
+    color-interpolation-filters: auto;
+    margin: 20px;
+
+}
+
+.first-section p{
+    font-size: 100px;
+    margin: 20px;
+    
+}
+/* second section */
+.global-section h2{
+    color: blue;
+     
+}
+
+.global-section p{
+    color:darkviolet;
+    text-align: center;
+}
+.photo1-div img {
+    max-width: 90%;
+    max-height: 90%;
+    
+}
+
+.about-main-div{
+
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.about-sub-div-2{
+    width: 500px;
+}
+
+.about-sub-div-2 h2{
+ font-size: 20px;
+}
+.about-sub-div-2 p{
+    color:darkviolet;
+    margin: 15px;
+}
+.about-sub-div-2 button{
+    margin: 50px;
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+}
+
+/* brand new car */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item{
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* contact section */
+.contact-head{
+    text-align: center;
+    font-size: 55px;
+}
+form{
+    margin-left: 8rem;
+    margin-top: 20px;
+}
+Form input{
+    width: 452px;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 25px;
+    background-color: black;
+    color: white;
+}
